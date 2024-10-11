@@ -1,7 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+# with leading slash Only matches the .vscode directory in the root of your project
 /node_modules
+# without leading slash Matches .vscode directories anywhere in your project
+node_modules/
 
 # next.js
 /.next/
